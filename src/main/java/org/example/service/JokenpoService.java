@@ -42,9 +42,9 @@ public class JokenpoService {
 
     public static String retorno(Resultado resultado) {
         return switch (resultado) {
-            case VITORIA -> "vence de";
-            case DERROTA -> "perde para";
-            case EMPATE -> "empata com";
+            case VITORIA -> " vence de ";
+            case DERROTA -> " perde para ";
+            case EMPATE -> " empata com ";
         };
     }
 }
