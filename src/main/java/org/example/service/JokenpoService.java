@@ -14,7 +14,7 @@ public class JokenpoService {
     private static final String PAPEL = "Papel";
     private static final String TESOURA = "Tesoura";
 
-    private static final Gesto PEDRA_GESTO = new Gesto(PEDRA, PAPEL, TESOURA);
+    private static final Gesto PEDRA_GESTO = new Gesto(PEDRA, TESOURA, PAPEL);
     private static final Gesto PAPEL_GESTO = new Gesto(PAPEL, PEDRA, TESOURA);
     private static final Gesto TESOURA_GESTO = new Gesto(TESOURA, PAPEL, PEDRA);
 
